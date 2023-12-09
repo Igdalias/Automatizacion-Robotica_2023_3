@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InterfazUwU</class>
+ <widget class="QDialog" name="InterfazUwU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>517</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.085 rgba(214, 230, 255, 255), stop:0.232955 rgba(215, 249, 248, 255), stop:0.414773 rgba(255, 255, 234, 255), stop:0.619318 rgba(255, 240, 212, 255), stop:0.795455 rgba(251, 224, 224, 255), stop:0.926136 rgba(229, 212, 239, 255));</string>
+  </property>
+  <widget class="QPushButton" name="Izquierda">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255,62,65);
+border-color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Left</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Atras">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>170</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0,201,167);
+border-color: rgb(0, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Delante">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>70</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255,138,67);
+font: 8pt &quot;Tahoma&quot;;
+border-color: rgb(255, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>Forward</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Derecha">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>120</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255,235,127);
+border-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Right</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Encender">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0,126,167);
+border-color: rgb(0, 85, 127);</string>
+   </property>
+   <property name="text">
+    <string>On</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Apagar">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(85, 0, 127);
+background-color: rgb(170, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </widget>
+  <zorder>Izquierda</zorder>
+  <zorder>Delante</zorder>
+  <zorder>Derecha</zorder>
+  <zorder>Encender</zorder>
+  <zorder>Apagar</zorder>
+  <zorder>Atras</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
